@@ -15,7 +15,7 @@
 1. Cambiar el color de los sprites de la escena
 2. Duplicar el objeto Seleccionable y probar manejar ambos objetos en la escena
 3. Arrastrar desde el proyecto el sprite CUAD a la escena y agregarle los componentes Box Collider 2D y Rigidbody2D. Se comportará igual que TRI.
-4. Duplicar CUAD y quitarle el componente Rigidbody2D para usarlo como un "estante" (no puede ser atravesado por los objetos Seleccionable pero no cae). Modificar su tamaño con la herramienta "Rect Tool" (se activa con la T) y rotarlo para crear un plano inclinado (la herramienta Rotate se activa con la letra E).
+4. Duplicar CUAD y quitarle el componente Rigidbody2D para usarlo como un "estante" (no cae pero pueden apoyarse objetos en él). Modificar su tamaño con la herramienta "Rect Tool" (se activa con la T) y rotarlo para crear un plano inclinado (la herramienta Rotate se activa con la letra E).
 5. Crear un sprite Circle y añadirlo a la escena. Agregarle los componentes Circle Collider 2D y Rigidbody2D. Ubicarlo en la escena de manera que al ejecutarse ruede sobre el plano inclinado.
 6. Añadir al sprite Circle el script SelectOnClick que se encuentra en la carpeta Scripts y utilizarlo como a Seleccionable.
 
